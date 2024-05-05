@@ -1,0 +1,88 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: linear-gradient(to right top, #00aec5, #00a9cd, #00a4d4, #009dda, #0096de);
+    font-size: 1.5em;
+}
+
+
+
+header {
+    background-image: linear-gradient(to right top, #007adc, #007adc, #007adc, #009dda, #0096de);
+    position: relative;
+    width: 95%;
+    padding: 10px 15px;
+    display: flex;
+    margin-bottom: 5em;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+
+#header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+header p {
+    font-size: 0.5em;
+    flex-shrink: 3;
+}
+
+
+header h1 {
+    flex-grow: 3;
+}
+ 
+header nav {
+    align-self: flex-end;
+    font-size: 1em;
+    justify-self: end;
+}
+
+header nav ul {
+    list-style: inside url('arrow-right.svg');
+}
+
+li.active {
+    color: blueviolet;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+article#projects {
+    flex-direction: column;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+
+
+#contact img {
+    width: 30%;
+    height: 30%;
+    padding-left: 20%;
+}
+
+article img {
+    align-self: flex-end;
+    justify-self: center;
+    margin-top: 2em;
+}
+
+.blog {
+    max-width: 75%;
+    padding: 3em;
+    text-align: center;
+}
+
+.empty {
+    flex: 1;
+}
+
